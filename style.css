@@ -1,0 +1,118 @@
+body {
+	font-size: 24px;
+	font-family: 'Courgette', cursive;
+	background-image: url(images/background.jpg);
+	color:black;
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+ }
+#nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: silver;
+	position:fixed;
+	z-index:3;
+	width:98.8%;
+	top:0;
+}
+#nav li{
+	float:left;
+	width:25%;
+}
+#nav li a {	
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #87CEEB;
+	text-decoration:none;
+	display: block;
+	padding: 14px 16px;
+	font-family: 'Courgette', cursive;
+	background-color: #87ceeb;
+	background-image: url(images/background.jpg);
+}	
+#nav li a:hover{
+	color:red;
+}
+#aboutContent{
+		border-color: transparent;
+		border-style: solid;
+		border-width: 4px;
+		margin-top: 16px;
+		width: 45%;
+		text-align: center;
+		margin-left: auto;
+		margin-right:auto;
+		padding-bottom: 20px;
+		background-color: rgba(211,211,211,0.65);
+		border-radius:60px;
+}
+table {
+	margin: auto;
+}
+#aboutContent ul, #aboutContent ol{
+	border: solid transparent 2px ;
+	width: 20% ;
+	margin: auto;
+}
+#android {
+	border-color:transparent;
+	border-style:solid;
+	border-radius:40px;
+}
+#indexContent {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    margin-right: -50%;
+    transform: translate(-50%, -80%);
+    text-align: center;
+}
+#portfolioContent{
+		border-color: transparent;
+		border-style: solid;
+		border-width: 4px;
+		margin-top: 16px;
+		width: 68%;
+		text-align: center;
+		margin-left: auto;
+		margin-right:auto;
+		padding-bottom: 20px;
+		background-color: rgba(211,211,211,0.65);
+		border-radius:60px;
+}
+#resumeContent{
+		border-color: transparent;
+		border-style: solid;
+		border-width: 4px;
+		margin-top: 16px;
+		width: 60%;
+		text-align: center;
+		margin-left: auto;
+		margin-right:auto;
+		padding-bottom: 20px;
+		background-color: rgba(211,211,211,0.65);
+		border-radius:50px;
+		border-width:40px;
+}
+#authorOwner{
+	border-color:transparent;
+	border-style:solid;
+	border-radius:40px;
+	
+}
+#clickLink{
+	text-decoration: none;
+	color: #87ceeb;
+}
+
+#indexContent a:hover{
+	color: red;
+}
+	
